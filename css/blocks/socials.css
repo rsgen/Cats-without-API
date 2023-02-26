@@ -1,0 +1,10 @@
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.socials__link {
+    color: var(--text-secondary-color);
+}

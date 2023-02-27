@@ -25,7 +25,6 @@ function handleFormAddCat(e) {
     e.preventDefault();
     const elementsFormCat = [...formCatAdd.elements];
     const formData = serializeForm(elementsFormCat);
-    console.log(formData);
     const newElement = new Card(formData, '#card-template', handleClickCatImage);
     cardsContainer.prepend(newElement.getElement());
 
